@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/city"
+    tools:context="com.example.chris.battletiles.Intermediate">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="368dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Button
+        android:id="@+id/Continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:onClick="cont"
+        android:text="Continue"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+</android.support.constraint.ConstraintLayout>
